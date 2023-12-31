@@ -21,7 +21,7 @@ const Footer = () => {
                       fill="black"
                     ></path>
                   </svg>
-                  <span class="ml-4 text-lg font-bold">DevUI</span>
+                  <span class="ml-4 text-lg font-bold">Logo space</span>
                 </div>
               </a>
             </div>
