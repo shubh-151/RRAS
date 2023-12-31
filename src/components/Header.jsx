@@ -19,7 +19,7 @@ const Header = () => {
           ></path>
         </svg>
       </span>
-      <span class="font-bold">DevUI</span>
+      <span class="font-bold">Logo space</span>
     </div>
     <div class="hidden grow items-start lg:flex">
       <ul class="ml-12 inline-flex space-x-8">
