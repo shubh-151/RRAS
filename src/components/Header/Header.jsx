@@ -25,28 +25,34 @@ const Header = () => {
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">
             <li>
-              <Link
+              <NavLink
                 to="/"
-                className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-gray-900"
+                className= {({isActive})=>
+                  `inline-flex items-center ${isActive ? "text-orange-700" : "text-gray-800"} text-sm font-semibold text-gray-800 `
+                } 
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="about"
-                className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-gray-900"
+                className= {({isActive})=>
+                  `inline-flex items-center ${isActive ? "text-orange-700" : "text-gray-800"} text-sm font-semibold text-gray-800 `
+                }  
               >
                 About
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="contact"
-                className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-gray-900"
+                className= {({isActive})=>
+                  `inline-flex items-center ${isActive ? "text-orange-700" : "text-gray-800"} text-sm font-semibold text-gray-800 `
+                }  
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
