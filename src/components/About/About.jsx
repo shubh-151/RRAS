@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto max-w-7xl px-20">
         <div className="mt-16 flex items-center">
           <div className="space-y-6 md:w-3/4">
             <div className="max-w-max rounded-full border bg-gray-50 p-1 px-3">

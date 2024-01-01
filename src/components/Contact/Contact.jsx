@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="mx-auto max-w-7xl px-4">
-      <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
+      <div className="flex flex-col space-y-8 pb-10 pt-12">
         <div className="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
           <p className="text-center text-xs font-semibold leading-normal md:text-sm">
             Share your thoughts
