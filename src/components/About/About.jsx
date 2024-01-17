@@ -19,7 +19,7 @@ const About = () => {
               people and foster a culture that empowers you to do your best
               work.
             </p>
-            <div></div>
+            
           </div>
         </div>
         <div className="grid grid-cols-1 gap-4 gap-y-6 border-b border-gray-300 py-12 pb-20 md:grid-cols-2 lg:grid-cols-4">
@@ -74,61 +74,9 @@ const About = () => {
             <p className="w-full px-2 pb-6 text-sm font-semibold text-gray-500">
               Sales
             </p>
-          </div>
-          <div className="rounded-md border">
-            <img
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;crop=faces&amp;fit=crop&amp;h=600&amp;w=600"
-              alt="Thilde Olaisen"
-              className="h-[300px] w-full rounded-lg object-cover "
-            />
-            <p className="mt-6 w-full px-2 text-xl  font-semibold text-gray-900">
-              Thilde Olaisen
-            </p>
-            <p className="w-full px-2 pb-6 text-sm font-semibold text-gray-500">
-              Marketing Lead
-            </p>
-          </div>
-          <div className="rounded-md border">
-            <img
-              src="https://images.generated.photos/lEhPUYYfYr9IOt13WZZGf2zbXZnCYdU1wUp7gcu_99c/rs:fit:512:512/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Njg5NTQ5LmpwZw.jpg"
-              alt="Deepika Ramesh"
-              className="h-[300px] w-full rounded-lg object-cover "
-            />
-            <p className="mt-6 w-full px-2 text-xl  font-semibold text-gray-900">
-              Deepika Ramesh
-            </p>
-            <p className="w-full px-2 pb-6 text-sm font-semibold text-gray-500">
-              Front-end developer
-            </p>
-          </div>
-          <div className="rounded-md border">
-            <img
-              src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"
-              alt="Jordi Santiago"
-              className="h-[300px] w-full rounded-lg object-cover "
-            />
-            <p className="mt-6 w-full px-2 text-xl  font-semibold text-gray-900">
-              Jordi Santiago
-            </p>
-            <p className="w-full px-2 pb-6 text-sm font-semibold text-gray-500">
-              Front-end developer
-            </p>
-          </div>
-          <div className="rounded-md border">
-            <img
-              src="https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=faces&amp;fit=crop&amp;h=600&amp;w=600"
-              alt="Kerim Fahri"
-              className="h-[300px] w-full rounded-lg object-cover "
-            />
-            <p className="mt-6 w-full px-2 text-xl  font-semibold text-gray-900">
-              Kerim Fahri
-            </p>
-            <p className="w-full px-2 pb-6 text-sm font-semibold text-gray-500">
-              Back-end developer
-            </p>
-          </div>
+          </div>          
         </div>
-        <div className="flex flex-col items-center gap-x-4 gap-y-4 py-16 md:flex-row">
+        <div className="flex flex-col items-center gap-x-4 gap-y-4 py-4 md:flex-row">
           <div className="space-y-6">
             <p className="text-sm font-semibold md:text-base">Join our team →</p>
             <p className="text-3xl font-bold md:text-4xl">

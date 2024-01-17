@@ -57,6 +57,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden space-x-2 lg:block">
+          <NavLink
+          to="login"
+          >
           <button
             type="button"
             className= {({isActive})=>
@@ -66,12 +69,15 @@ const Header = () => {
 
             Sign In
           </button>
+          </NavLink>
+          <NavLink>
           <button
             type="button"
             className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Log In
           </button>
+          </NavLink>
         </div>
         <div className="lg:hidden">
           <svg
